@@ -197,7 +197,16 @@
     font-size: 24px;
     color: var(--gray-100);
 }
-
+@media screen and (max-width:550px){
+    .popular-foods__card{
+       margin: 0 0;
+       margin-bottom: 1rem;
+    }
+    .popular-foods__filters-btn{
+        border: #fff 1px solid;
+        display:none;
+    }
+}
 .popular-foods__card.active-card 
 .popular-foods__card-price{
     font-size: 24px;
